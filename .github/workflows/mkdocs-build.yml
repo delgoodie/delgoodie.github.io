@@ -1,0 +1,83 @@
+name: mkdocs-build
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  # schedule:
+  #   - cron: '0 4 * * *'
+
+env:
+  PYTHON_VERSION: 3.11
+  CUSTOM_DOMAIN:  ikrima.dev
+  # EXTRA_PACKAGES: libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev pngquant
+
+permissions:
+  contents: write
+  pages:    write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build_mkdocs:
+    name: Build MkDocs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo ${{ github.ref }}
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # set-safe-directory: false
+
+      - name: Setup Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          architecture: 'x64'
+          cache: 'pip'
+          cache-dependency-path: |
+            .github/workflows/mkdocs-build.yml
+            requirements.txt
+
+      # - name: Setup Pip cache
+      #   uses: actions/cache@v3
+      #   id:   cache-pip
+      #   with:
+      #     path:         ~/.cache/pip
+      #     key:          ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+      #     restore-keys: ${{ runner.os }}-pip-
+
+      # - name: Setup Build cache
+      #   uses: actions/cache@v3
+      #   id:   cache
+      #   with:
+      #     path:         ~/.cache
+      #     # key:        ${{ runner.os }}-${{ github.sha }}
+      #     key:          ${{ runner.os }}-${{ hashFiles('.cache/*','.cache/**/*') }}
+      #     restore-keys: ${{ runner.os }}-
+
+      - name: Install Native dependencies
+        if: ${{ env.EXTRA_PACKAGES }}
+        run: |
+          for package in ${EXTRA_PACKAGES}; do
+            sudo apt-get install "${package}"
+          done
+
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade pip build
+          pip install -r "${GITHUB_WORKSPACE}/requirements.txt"
+
+      - name: Deploy MkDocs
+        run: |
+          function print_info() { echo -e "\e[36mINFO: ${1}\e[m"; }
+
+          print_info "Setting custom domain for gh-pages"
+          echo "${CUSTOM_DOMAIN}" > "${GITHUB_WORKSPACE}/docs/CNAME"
+
+          print_info "Exec mkdocs gh-deploy"
+          mkdocs gh-deploy --config-file "${GITHUB_WORKSPACE}/mkdocs.yml" --force

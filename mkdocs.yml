@@ -1,0 +1,219 @@
+# Project information
+site_name:        Gamedev Guide
+site_author:      ikrimae
+copyright:        Copyright &copy; 2016 - 2023 ikrima
+site_url:         https://ikrima.dev/
+site_description: Programming notes for Unreal Engine, Houdini, Game Development, Math, & Graphics
+repo_name:        ikrima/gamedevguide
+repo_url:         https://github.com/ikrima/gamedevguide
+edit_uri:         blob/master/docs/
+
+# Site Configuration
+docs_dir:           docs
+use_directory_urls: true
+strict:             true
+
+# Theme Configuration
+theme:
+  name: material
+  # custom_dir: theme
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - toc.follow
+    # - navigation.expand
+    # - navigation.tabs.sticky
+    # - toc.integrate
+
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: ayu
+      # primary: indigo
+      # accent:  indigo
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      # primary: indigo
+      # accent: indigo
+      toggle:
+        icon: material/flare
+        name: Light Mode
+  font:
+    # text: Nunito
+    text: Source Serif Pro
+    code: Source Code Pro
+  icon:
+    logo: material/gamepad-variant
+    repo: fontawesome/brands/github
+    edit: material/file-edit-outline
+    view: material/file-eye-outline
+  favicon: _site/favicon.ico
+
+
+# Theme Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/ikrima
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ikrimae
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/ikrima
+  analytics:
+    provider: google
+    property: G-VWCEPP5L4L
+extra_css:
+  - _site/mkdocs-extra.css
+  - _site/obsidian-admonition.css
+  # - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css ###revisit
+extra_javascript:
+  - _site/arithmatex-mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  # - _site/arithmatex-katex.js ###revisit
+  # - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js ###revisit
+
+
+# Markdown Extensions
+markdown_extensions:
+  # ThirdParty Extensions
+  - mdx_breakless_lists
+
+  # Python Markdown
+  - markdown.extensions.abbr
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.tables
+  - markdown.extensions.md_in_html
+  - markdown.extensions.toc:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}} ###revisit
+      permalink: "#"
+      toc_depth: 6
+  - markdown.extensions.meta       ###revisit
+  - markdown.extensions.nl2br      ###revisit
+  - markdown.extensions.sane_lists ###revisit
+  # - markdown.extensions.smarty:  ###revisit
+  #     smart_quotes: false
+
+  # Python Markdown Extensions
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index:     !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.magiclink:
+      user:                    ikrima
+      repo:                    gamedevguide
+      repo_url_shorthand:      true
+      # repo_url_shortener:      true ###revisit
+      # social_url_shorthand:    true ###revisit
+      # social_url_shortener:    true ###revisit
+      # normalize_issue_symbols: true ###revisit
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}} ###revisit
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
+      # block_tag: 'pre' ###revisit
+  - pymdownx.highlight:
+      auto_title:          true
+      # guess_lang:        true
+      # pygments_style:    solarized-dark ###revisit
+      linenums:            true
+      linenums_style:      pymdownx-inline
+      line_spans:          __span
+      use_pygments:        true
+      pygments_lang_class: true
+      extend_pygments_lang:
+        - name: ue4c
+          lang: bash
+        - name: vex
+          lang: glsl
+        - name: hscript
+          lang: glsl
+  - pymdownx.inlinehilite:
+      custom_inline:
+        - name:   math
+          class:  arithmatex
+          format: !!python/object/apply:pymdownx.arithmatex.arithmatex_inline_format {kwds: {mode: generic}}
+  - pymdownx.superfences:
+      preserve_tabs: true ###revisit
+      custom_fences:
+        - name:   math
+          class:  arithmatex
+          format: !!python/object/apply:pymdownx.arithmatex.arithmatex_fenced_format {kwds: {mode: generic, tag: pre}}  ###revisit {mode: generic}
+
+  - pymdownx.smartsymbols
+  - pymdownx.keys:
+      separator: '+'
+      key_map:
+        click:       'Click'
+        left-click:  'Left Click'
+        right-click: 'Right Click'
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.escapeall:
+      hardbreak: false
+      nbsp:      false
+  # - pymdownx.saneheaders ###revisit
+  # - pymdownx.progressbar
+  # - pymdownx.striphtml
+  # - markdown_katex:
+  #     no_inline_svg: True
+  #     insert_fonts_css: True
+  #     # macro-file: macros.tex
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - git-revision-date-localized:
+      type: iso_date
+      enable_creation_date: true
+      # fallback_to_build_date: true
+  - awesome-pages:
+      collapse_single_pages: false
+  - glightbox
+  - meta-descriptions:
+      enable_checks: false
+      export_csv:    false
+      quiet:         false
+  - progress
+  - callouts
+  - ezlinks:
+      warn_ambiguities: true
+      wikilinks:        true
+      reference_links:  false
+  # - social
+  # - roamlinks
+  # - embed_file:
+  #     callouts: true
+  #     custom-attributes: _site/custom_attributes.css
+  # - custom-attributes:
+  #     file: _site/custom_attributes.css
+  # - minify:
+  #     minify_html: true
+  #     htmlmin_opts:
+  #       remove_comments: true
+  # - offline:
+  #     enabled: !ENV [OFFLINE, false]
