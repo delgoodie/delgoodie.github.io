@@ -98,77 +98,19 @@ markdown_extensions:
   # - markdown.extensions.smarty:  ###revisit
   #     smart_quotes: false
 
-  # Python Markdown Extensions
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index:     !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.magiclink:
-      user:                    ikrima
-      repo:                    gamedevguide
-      repo_url_shorthand:      true
-      # repo_url_shortener:      true ###revisit
-      # social_url_shorthand:    true ###revisit
-      # social_url_shortener:    true ###revisit
-      # normalize_issue_symbols: true ###revisit
-  - pymdownx.mark
-  - pymdownx.tabbed:
-      alternate_style: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}} ###revisit
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
   - pymdownx.arithmatex:
       generic: true
-      # block_tag: 'pre' ###revisit
-  - pymdownx.highlight:
-      auto_title:          true
-      # guess_lang:        true
-      # pygments_style:    solarized-dark ###revisit
-      linenums:            true
-      linenums_style:      pymdownx-inline
-      line_spans:          __span
-      use_pygments:        true
-      pygments_lang_class: true
-      extend_pygments_lang:
-        - name: ue4c
-          lang: bash
-        - name: vex
-          lang: glsl
-        - name: hscript
-          lang: glsl
-  - pymdownx.inlinehilite:
-      custom_inline:
-        - name:   math
-          class:  arithmatex
-          format: !!python/object/apply:pymdownx.arithmatex.arithmatex_inline_format {kwds: {mode: generic}}
-  - pymdownx.superfences:
-      preserve_tabs: true ###revisit
-      custom_fences:
-        - name:   math
-          class:  arithmatex
-          format: !!python/object/apply:pymdownx.arithmatex.arithmatex_fenced_format {kwds: {mode: generic, tag: pre}}  ###revisit {mode: generic}
-
-  - pymdownx.smartsymbols
-  - pymdownx.keys:
-      separator: '+'
-      key_map:
-        click:       'Click'
-        left-click:  'Left Click'
-        right-click: 'Right Click'
-  - pymdownx.snippets:
-      check_paths: true
-  - pymdownx.escapeall:
-      hardbreak: false
-      nbsp:      false
-  # - pymdownx.saneheaders ###revisit
-  # - pymdownx.progressbar
-  # - pymdownx.striphtml
-  # - markdown_katex:
-  #     no_inline_svg: True
-  #     insert_fonts_css: True
-  #     # macro-file: macros.tex
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
