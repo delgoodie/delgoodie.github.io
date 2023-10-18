@@ -33,7 +33,7 @@ theme:
     # - navigation.expand
     # - navigation.tabs.sticky
     # - toc.integrate
-
+ 
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: ayu
