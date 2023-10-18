@@ -1,9 +1,9 @@
 # Project Config
-site_name:    delgoodie
-site_url:     https://delgoodie.github.io
-site_author:  William Del Giudice
-copyright:    Copyright &copy; 2016 - 2024 delgoodie
-site_description: General knowledgebase from delgoodie
+site_name:        delgoodie
+site_url:         https://delgoodie.github.io
+site_author:      William Del Giudice
+copyright:        Copyright &copy; 2023 - 2024 delgoodie
+site_description: Diverse collection of topics pertaining to the work and study of delgoodie
 repo_name:        delgoodie/delgoodie.github.io
 repo_url:         https://github.com/delgoodie/delgoodie.github.io
 edit_uri:         blob/master/docs/
@@ -42,13 +42,13 @@ theme:
       toggle:
         icon: material/weather-night
         name: Dark Mode
-    - media: "(prefers-color-scheme: light)"
+    - media: "(prefers-color-scheme: dark)"
       scheme: default
       # primary: indigo
       # accent: indigo
       toggle:
         icon: material/flare
-        name: Light Mode
+        name: Dark Mode
   font:
     # text: Nunito
     text: Source Serif Pro
@@ -114,3 +114,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+    - search
+    - awesome-pages

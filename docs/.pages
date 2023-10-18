@@ -1,6 +1,7 @@
 nav:
-  - Home: index.md
-  - Unreal Engine: Unreal Engine
-  - Programming: Programming
+  - Home: Home
+  - Astro: Astro
+  - Code: Code
   - Engineering: Engineering
-  
+  - Unreal Engine: UE
+  - Projects: Projects
