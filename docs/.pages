@@ -1,9 +1,0 @@
-nav:
-  - Home: index.md
-  - UE4: ue4guide
-  - Dev Notes: dev-notes
-  - Math: math
-  - Graphics: graphics
-  - Houdini: houdini
-  - Design: design
-  - Blog: blog

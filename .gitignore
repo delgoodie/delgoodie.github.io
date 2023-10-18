@@ -1,8 +1,0 @@
-﻿# Docs Custom
-.build/
-.cache/
-.netlify
-site/
-
-# Lychee
-.lycheecache

@@ -1,22 +1,22 @@
-# Project information
-site_name:        Gamedev Guide
-site_author:      ikrimae
-copyright:        Copyright &copy; 2016 - 2023 ikrima
-site_url:         https://ikrima.dev/
-site_description: Programming notes for Unreal Engine, Houdini, Game Development, Math, & Graphics
-repo_name:        ikrima/gamedevguide
-repo_url:         https://github.com/ikrima/gamedevguide
+# Project Config
+site_name:    delgoodie
+site_url:     https://delgoodie.github.io
+site_author:  William Del Giudice
+copyright:    Copyright &copy; 2016 - 2024 delgoodie
+site_description: General knowledgebase from delgoodie
+repo_name:        delgoodie/delgoodie.github.io
+repo_url:         https://github.com/delgoodie/delgoodie.github.io
 edit_uri:         blob/master/docs/
 
-# Site Configuration
+
+# Site Config
 docs_dir:           docs
 use_directory_urls: true
 strict:             true
 
-# Theme Configuration
-theme:
+
+theme: 
   name: material
-  # custom_dir: theme
   language: en
   features:
     - navigation.tabs
@@ -54,35 +54,25 @@ theme:
     text: Source Serif Pro
     code: Source Code Pro
   icon:
-    logo: material/gamepad-variant
+    logo: material/delta
     repo: fontawesome/brands/github
     edit: material/file-edit-outline
     view: material/file-eye-outline
   favicon: _site/favicon.ico
 
 
+
 # Theme Customization
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/ikrima
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/ikrimae
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/ikrima
-  analytics:
-    provider: google
-    property: G-VWCEPP5L4L
-extra_css:
-  - _site/mkdocs-extra.css
-  - _site/obsidian-admonition.css
-  # - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css ###revisit
-extra_javascript:
-  - _site/arithmatex-mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  # - _site/arithmatex-katex.js ###revisit
-  # - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js ###revisit
+      link: https://github.com/delgoodie
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@delgoodie
+  # analytics:
+  #   provider: google
+  #   property: G-VWCEPP5L4L
+
 
 
 # Markdown Extensions
@@ -182,38 +172,3 @@ markdown_extensions:
   #     no_inline_svg: True
   #     insert_fonts_css: True
   #     # macro-file: macros.tex
-
-# Plugins
-plugins:
-  - search:
-      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-  - git-revision-date-localized:
-      type: iso_date
-      enable_creation_date: true
-      # fallback_to_build_date: true
-  - awesome-pages:
-      collapse_single_pages: false
-  - glightbox
-  - meta-descriptions:
-      enable_checks: false
-      export_csv:    false
-      quiet:         false
-  - progress
-  - callouts
-  - ezlinks:
-      warn_ambiguities: true
-      wikilinks:        true
-      reference_links:  false
-  # - social
-  # - roamlinks
-  # - embed_file:
-  #     callouts: true
-  #     custom-attributes: _site/custom_attributes.css
-  # - custom-attributes:
-  #     file: _site/custom_attributes.css
-  # - minify:
-  #     minify_html: true
-  #     htmlmin_opts:
-  #       remove_comments: true
-  # - offline:
-  #     enabled: !ENV [OFFLINE, false]
