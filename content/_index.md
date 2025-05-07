@@ -1,7 +1,7 @@
 ---
-lead: "Basic, simple and minimal Hugo theme"
+lead: "delgoodie website"
 ---
 
-This is a demo of the `not-much` theme, built with Hugo, and is intended to be trouble-free. Explore it to see what `not-much` has to offer.
+omni delgoodie
 
-💡 Check the [about page](./about) to learn more about this theme
+open sourced thoughts, structured for your convienence

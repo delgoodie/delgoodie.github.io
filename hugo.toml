@@ -24,21 +24,51 @@ palette = "eink"
 showThemeNotice = true
 showPostsSummary = true
 
-# Navigation
-[menu]
+
 [[menu.main]]
-identifier = "home"
-name = "home"
-title = "Home"
-url = "/"
-weight = 1
+identifier = "theory"
+name = "⚜️Theory"
+title = "⚜️Theory"
+url = "/⚜️Theory"
+weight = 3
+
+[[menu.main]]
+identifier = "experiement"
+name = "🧪Experiment"
+title = "🧪Experiment"
+url = "/🧪Experiment"
+weight = 3
+
+
+[[menu.main]]
+identifier = "research"
+name = "🧬Research"
+title = "🧬Research"
+url = "/🧬Research"
+weight = 3
+
+
+[[menu.main]]
+identifier = "recipe"
+name = "🥕Recipe"
+title = "🥕Recipe"
+url = "/🥕Recipe"
+weight = 3
+
+[[menu.main]]
+identifier = "misc"
+name = "🎲Misc"
+title = "🎲Misc"
+url = "/🎲Misc"
+weight = 3
+
 
 [[menu.main]]
 identifier = "posts"
-name = "posts"
-title = "posts"
+name = "example"
+title = "hugo example"
 url = "/posts"
-weight = 3
+weight = 4
 
 [[menu.main]]
 identifier = "about"

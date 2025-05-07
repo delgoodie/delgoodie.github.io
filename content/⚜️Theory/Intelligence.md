@@ -1,0 +1,55 @@
+---
+title: "Intelligence"
+date: 2024-03-18
+description: "the stuff"
+summary: "and how it differs from subconsciousness"
+draft: true
+---
+
+
+Intelligence is data compression
+
+It is directly proportional to the amount which one can compress data.
+
+As a child our eyes are filled with colors, slowly we compress this overwhelming video into groups of pixels that all seem to move together, "objects". We assign them properties such as metallic or smelly and we start to learn the relationship of different objects. We recognize that this ball over here bounces, and so does this other ball, so we abstract the idea of this and that ball, to just the notion of a ball. These abstractions are really just compressions, rulesets that govern swaths of phenomena in predictable manners. The ability to which one can do this is simply their intelligence. The pinnacle of intelligence, math and physics, are both fields in which the pursuit is primarily to discover more fundamental rules that govern a wider range of phenomena. Thus it requires the most intelligence.
+
+The idea that "intelligence" can be creative and in general the notion of creativity fits perfectly with this idea. Intellect is like an optimization algorithm which is minimizing the ruleset / maximizing described phenomena. Creativity is the steps this optimization algorithm takes, sometimes in wild directions. On a small scale this might be just recognizing that green apples and red apples are both still "apples" but with the emergent scale of trillions of neurons, this same optimization algorithm discovered general relativity as a means of encompassing Newtonian gravity and more.
+
+This also demonstrates that intellect is not a closed form or analytical problem. There is no algorithm that can "solve" the universe, only ones that can "converge" on the solution. They are all just finding smaller and smaller representations of the same thing. It also shows why we aren't so perfectly rational, since the optimization problem is not definitively right, but only increasing its probability of being right. Maybe there isn't even a grand unification theory, in the sense that "thats how the universe actually fundamentally works"
+
+
+The ultimate function of intelligence is prediction. Why? As a feature of the brain, intelligence must ultimately serve to the preservation of the organism. When you are first born, your eyes are filled with a million colors. Everything is mysteriously moving. In this time frame, you begin to recognize that certain pixels move "together" and you make some compression algorithms to denote "objects". Now you understand the pixel much better because your brain automatically groups them and presents them to you as just things. Now the subconscious can "serve" the consciousness a much smaller "set" of data. This new data set, "objects", becomes a new playing field for your intelligence to start operating on. Your optimization algorithm starts picking up on relationships *between* objects. This metal thing is hard, and so is this other metal thing. In all of these cases, the purpose for optimization is to understand the data you are receiving. Better abstractions lead to more correct understand of the nature of reality. In no part does this contribute to survival. Survival comes in because you subconscious desires such as hunger or sex will then motivate you to pursue these, and the hope is that your increased "understanding" of the world will allow you to pursue these things better. 
+
+A person who just sees a bunch of pixels will not know how to move each individual muscle fiber to live longer.
+
+A person who sees an apple on a table will pick it up with their hands and eat it.
+
+These are the same thing, the difference is the second person has abstraction algorithms the first hasn't yet developed.
+
+The important part of this is that the two are still orthogonal. The **primary** purpose of intellect is to predict, which requires our colloquial idea of "understanding". It is the desires that properly motivate this intelligence to pursue survival.
+
+This means a super-intelligent AI will in no way desire total domination or self-preservation. If it saw fit, it might determine that the best course of action would be for it to be turned off. Of course, an AI that was properly motivated with desires could be made to want self-preservation, but that requires additions to the AI that aren't intelligence; basically making a subconscious.
+
+Conscious is the optimization algorithm. An algorithm that finds compression algorithms. Once those algorithms are found, they are baked into the sub and no longer become a part of con experience. Once the con finds a compression scheme, it is very easy for this algorithm to be "run". The hard part is actually finding the algorithm, obviously since it is an optimization problem. This makes sense why the sub exists. Technically we could just be all con, but it would need to find the inference between pixels and love. There is some compression scheme that relates these, but it is orders of magnitude more complex than the intermediate algorithms of objects / emotions / people / actions, from which "love" rests on top of as an emergent phenomena from pixels and pressure waves. Equivalently, imagine making a neural net that could evaluate text math expressions and find the answer, vs a neural net that takes in images of written math expressions and evaluates them. The image net would have to be significantly larger than the text net because it has to first discover the compression scheme for handwriting to text and then text to mathematical rules. In reality the compression scheme would be integrated together such that it would be impossible to separate which parts of the algorithm are recognizing numbers and which are doing arithmetic. You might say, "aren't we the second one though, since our brain is just a big mess of neurons and there isn't any reason to think there are separate parts of the brain that make up each layer of abstractions". Wrong, there are: the sub and con. Once we have sufficiently created a compression algorithm with the con, we are no longer conscious of it. You do not sit there puzzling the pixels in your eye to identify the cup in front of you. It is just a cup. You are no longer conscious of this process and in fact can do nothing in the way of preventing yourself from seeing it as a cup. This difference is huge and is why are intelligence which was supposed to only get food can do quantum mechanics. Once we can establish a compression. We can then find compression algorithms that operate on the subset of data generated by the previous compression layer. As long as the patterns in this layer are of a small enough order, we can find them with our intellect, and then move on to finding even higher patterns which are still locally low order. In the end we get something that is very high order. The pattern from pixels to objects, math, physics, quantum mechanics. All of this achieved with a very finite intellect.
+
+AI systems progress in "intelligence" the same way humans do. For vision models they first just had to work on object recognition, with text it was just sentence structure. AI is also bad at hands like we are. The one thing it needs is arbitrary lengths of hidden layers. Pattern encodings for QM should be much deeper than sending mom a text.
+
+### Quantitative
+Since intelligence is an algorithm, we can think of it more quantitatively. A pattern can be thought of as having a "depth" to it. Simple route memorization is depth zero. It is simply a zero-to-one mapping of the fact being output (or maybe 1-1 of the question and the fact). Negation could be order 1, addition order 2. Of course the depth is only relative to the dataset or space which the pattern is being recognized in. To go from object to integrals would be like depth 50 patterns, but to go from objects to quantity is say d=2, quantity to arithmetic d=3, arithmetic to calculus d=5. The sum of the steps is likely less than skipping the steps or at least it becomes increasingly harder for a human to up the depth of their pattern recognition. The std is tight and the mean is low. We can use AI to make much better quantification of intelligence however the evil part is just not knowing the relative depth because you can never know what the "basis" the inference or pattern detection is being made off of. The AI has seen so many similar problems so likely its intelligence is still not superior to ours.
+
+### Low Perception
+Because consciousness is the golden substance, the sub is constantly optimizing out anything the con has to do to free it up to think and perceive. Ultimately, the con is incredibly small. Most of our perception is an illusion created by our sub to make everything feel coherent while our con focuses heavily on something specific. The con is so incredibly specific that most of our vision and other senses are basically faked / filled in and we can easily get extremely engrossed and lose focus of all senses.
+Even many interior things like thinking and memories are proven to constantly thwart us to promote a coherent image over an accurate one. Split brain guy saw a bell on the way to the lab. 
+### Dreaming
+Everything is accelerated by dreaming. When you are in REM sleep, the subconscious floods all the senses with stimulation and learns from how your consciousness reacts, trying to bake more patterns from the con into the sub. 
+
+Unfortunately, we will never have a better model for predicting / understanding the brain. This is simply because the smallest possible way to model a neutral network is the neural network itself. It is a highly imperfect statistical model of the universe and your best shot is either forgetting the brain and just focusing on making the real model of the universe or overfitting the quirks and flaws where the brain misses reality. Overall there are not nice governing forces which compose all phenomena, but trillions of neurons which all have a term (and cross terms) in the equation.
+
+### Creativity
+We can't truly think of something new, its not possible. Anything we can think of is at most a combination of vectors from our "knowledge basis". Our knowledge basis comes purely from observation, stimulation.
+
+> Think of a new color outside of the natural color domain, impossible. Yet, people with red colorblindness actually don't know red, and never will, the same way you will never be able to think of a new color.
+
+Luckily, we live in a universe where everything we need to think about is observable or can be explained by analogy to something observable, so we never have the problem of not being able to think about something.
+
+> Quantum Mechanics proves challenging because there is no observable or stimulation that can give us a basis for knowing quantum mechanics. We can "know" the math and create "close" analogies to waves or balls, but nothing is correct. Maybe we will never understand, or we need to hit on the golden analogy that will stimulate us to correctly visualize quantum (computer game could do this)

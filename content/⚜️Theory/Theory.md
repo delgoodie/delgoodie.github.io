@@ -1,0 +1,13 @@
+---
+title: "Theory"
+date: 2024-03-18
+description: "metaphysicality"
+summary: "the theory of theory, it must be put in words"
+draft: false
+---
+
+There are billions of things and processes occupying space and time which I interact with every conscious moment. Many of them directly affect me and many of those, I could benefit from if I understood correctly. One way to understand is to know how the thing or process works as a mapping of properties and values or inputs and outputs. This could be helpful for something incredibly complex like the weather or incredibly simple like $1+1=2$, but becomes tedious and overbearing for many phenomena like how to compute an average. Instead, a different kind of understanding must be attained, knowledge of the governing rules which the thing or process behaves by. This greatly reduces the amount of information which needs to be maintained, and also sheds light on the motivations of the phenomena. This is theory. It allows me to structure the entire universe into a tight bundle of axioms which correctly allow me to describe and predict all that I observe. To a man without theory, everything is an axiom.
+
+Theory is few axioms or rules which govern a set of things or processes. It has a predictive aspect in that the rule of addition must predict that 45+23=68 without explicitly stating this fact in the axiom. This prediction is precisely the reason that the theory is useful. New experiences will require theory which is generalized enough to demonstrate that the new phenomena can actually be seen as an interpolation which can be predicted by the theory. So a theory is measured first by the accuracy of its prediction, and second by the generalizability of its prediction. Fewer axioms which apply to a greater range of situations likely means the theories are closer to matching the motivation of the situation and not merely describing it. It is completely possible, however, for a theory to perfectly describe a phenomena in the most general of terms without shedding any light on its motivations.
+
+The search for theory is always ongoing and limited by my brain. I would like to believe that if I were to simply understand the quantum fields and their differential equations, dandelions would simply be implied, however, I am only human. A theory is only as good as its user, thus while theories should be generalized and the basis minimized, expansion is mandatory if prediction is too obscured; hence Botany is still a valid field.
