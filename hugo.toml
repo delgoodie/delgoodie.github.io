@@ -25,50 +25,58 @@ showThemeNotice = true
 showPostsSummary = true
 
 
-[[menu.main]]
-identifier = "theory"
-name = "⚜️Theory"
-title = "⚜️Theory"
-url = "/⚜️Theory"
-weight = 3
+# [[menu.main]]
+# identifier = "theory"
+# name = "⚜️Theory"
+# title = "⚜️Theory"
+# url = "/⚜️Theory"
+# weight = 3
+# [[menu.main]]
+# identifier = "experiement"
+# name = "🧪Experiment"
+# title = "🧪Experiment"
+# url = "/🧪Experiment"
+# weight = 3
+# [[menu.main]]
+# identifier = "research"
+# name = "🧬Research"
+# title = "🧬Research"
+# url = "/🧬Research"
+# weight = 3
+# [[menu.main]]
+# identifier = "recipe"
+# name = "🥕Recipe"
+# title = "🥕Recipe"
+# url = "/🥕Recipe"
+# weight = 3
+# [[menu.main]]
+# identifier = "misc"
+# name = "🎲Misc"
+# title = "🎲Misc"
+# url = "/🎲Misc"
+# weight = 3
+# [[menu.main]]
+# identifier = "posts"
+# name = "example"
+# title = "hugo example"
+# url = "/posts"
+# weight = 4
 
 [[menu.main]]
-identifier = "experiement"
-name = "🧪Experiment"
-title = "🧪Experiment"
-url = "/🧪Experiment"
-weight = 3
+identifier = "privacy"
+name = "privacy"
+title = "Privacy"
+url = "/privacy"
+weight = 2
 
 
 [[menu.main]]
-identifier = "research"
-name = "🧬Research"
-title = "🧬Research"
-url = "/🧬Research"
-weight = 3
+identifier = "eula"
+name = "eula"
+title = "EULA"
+url = "/eula"
+weight = 2
 
-
-[[menu.main]]
-identifier = "recipe"
-name = "🥕Recipe"
-title = "🥕Recipe"
-url = "/🥕Recipe"
-weight = 3
-
-[[menu.main]]
-identifier = "misc"
-name = "🎲Misc"
-title = "🎲Misc"
-url = "/🎲Misc"
-weight = 3
-
-
-[[menu.main]]
-identifier = "posts"
-name = "example"
-title = "hugo example"
-url = "/posts"
-weight = 4
 
 [[menu.main]]
 identifier = "about"
