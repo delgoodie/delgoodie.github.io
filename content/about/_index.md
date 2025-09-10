@@ -6,21 +6,4 @@ draft = false
 
 
 
-delgoodie, aka William Del Giudice.
-<br>
-<br>
-### titles 
-- chiller
-- primate
-- coder
-- son
-- netcode god
-- baker
-- oneironaut
-- game dev
-- runner
-- brother
-- barber
-- roamer
-- pole vaulter
-- youtuber
+delgoodie studio is a small indie dev studio working on Astro, a zero-g fps
