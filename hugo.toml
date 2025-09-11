@@ -71,6 +71,14 @@ weight = 2
 
 
 [[menu.main]]
+identifier = "support"
+name = "support"
+title = "Support"
+url = "/support"
+weight = 2
+
+
+[[menu.main]]
 identifier = "eula"
 name = "eula"
 title = "EULA"
@@ -85,9 +93,10 @@ title = "About"
 url = "/about"
 weight = 2
 
-[[menu.main]]
-identifier = "github"
-name = "github"
-title = "GitHub"
-url = "https://github.com/delgoodie"
-weight = 4
+
+# [[menu.main]]
+# identifier = "github"
+# name = "github"
+# title = "GitHub"
+# url = "https://github.com/delgoodie"
+# weight = 4
