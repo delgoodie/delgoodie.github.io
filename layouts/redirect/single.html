@@ -7,22 +7,17 @@
 
 <script>
     (function () {
-        // Use jsonify only in JS context
-        var base = new URL({{ .Params.to | jsonify }});
+        var base = new URL(JSON.parse({{ .Params.to | jsonify }}));
 
-    // carry query from your endpoint, e.g. ?steam=fefseffs
     var q = new URLSearchParams(location.search);
-    var steam = q.get("steam");
+    var username = q.get("username");
+    var formcode_username = {{ .Params.formcode_username }};
 
-    if (steam) {
+    if (username && formcode_username) {
         base.searchParams.set("usp", "pp_url");
-        base.searchParams.set("entry.2068828512", steam); // your field id
+        base.searchParams.set("entry." + formcode_username, username);
     }
-
-    // update the fallback link for noscript users
     document.getElementById("fallback").href = base.toString();
-
-    // do the real redirect
     location.replace(base.toString());
-}) ();
+    }) ();
 </script>
