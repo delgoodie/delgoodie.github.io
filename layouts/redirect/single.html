@@ -1,26 +1,28 @@
 <!doctype html>
 <meta charset="utf-8">
 <meta name="robots" content="noindex">
-<meta http-equiv="refresh" content="0; url={{ .Params.to }}">
 <link rel="canonical" href="{{ .Params.to }}">
 <title>Redirecting…</title>
-<p>If you are not redirected, <a href="{{ .Params.to }}">click here</a>.</p>
+<p>If you are not redirected, <a id="fallback" href="{{ .Params.to }}">click here</a>.</p>
 
 <script>
     (function () {
-        // jsonify outputs a JS string literal with exactly one pair of quotes
+        // Use jsonify only in JS context
         var base = new URL({{ .Params.to | jsonify }});
 
-    // Optional: read query params from your redirect page
+    // carry query from your endpoint, e.g. ?steam=fefseffs
     var q = new URLSearchParams(location.search);
-    var steam = q.get("steam"); // e.g., /feedback/0.0.6?steam=NAME
+    var steam = q.get("steam");
 
     if (steam) {
         base.searchParams.set("usp", "pp_url");
-        // TODO: replace 1234567890 with your Google Forms field ID
-        base.searchParams.set("entry.2068828512", steam);
+        base.searchParams.set("entry.2068828512", steam); // your field id
     }
 
-    location.replace(base.href);
-  }) ();
+    // update the fallback link for noscript users
+    document.getElementById("fallback").href = base.toString();
+
+    // do the real redirect
+    location.replace(base.toString());
+}) ();
 </script>
