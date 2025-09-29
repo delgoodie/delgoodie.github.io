@@ -1,7 +1,26 @@
 <!doctype html>
 <meta charset="utf-8">
+<meta name="robots" content="noindex">
 <meta http-equiv="refresh" content="0; url={{ .Params.to }}">
 <link rel="canonical" href="{{ .Params.to }}">
 <title>Redirecting…</title>
 <p>If you are not redirected, <a href="{{ .Params.to }}">click here</a>.</p>
-<script>location.replace({{ .Params.to | jsonify }});</script>
+
+<script>
+    (function () {
+        // jsonify outputs a JS string literal with exactly one pair of quotes
+        var base = new URL({{ .Params.to | jsonify }});
+
+    // Optional: read query params from your redirect page
+    var q = new URLSearchParams(location.search);
+    var steam = q.get("steam"); // e.g., /feedback/0.0.6?steam=NAME
+
+    if (steam) {
+        base.searchParams.set("usp", "pp_url");
+        // TODO: replace 1234567890 with your Google Forms field ID
+        base.searchParams.set("entry.1234567890", steam);
+    }
+
+    location.replace(base.href);
+  }) ();
+</script>
