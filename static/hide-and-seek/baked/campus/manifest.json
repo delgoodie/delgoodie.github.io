@@ -1,0 +1,1000 @@
+{
+  "version": 1,
+  "id": "campus",
+  "hash": "14b62e7e",
+  "pixelsPerUnit": 64,
+  "chunkSize": 8,
+  "gutter": 1,
+  "ambient": "#adbed0",
+  "bounds": [
+    -48,
+    -40,
+    48,
+    40
+  ],
+  "textures": {
+    "chunk.-48.-40.ground": "/baked/campus/14b62e7e/-48_-40_ground.png",
+    "chunk.-48.-40.detail": "/baked/campus/14b62e7e/-48_-40_detail.png",
+    "chunk.-40.-40.ground": "/baked/campus/14b62e7e/-40_-40_ground.png",
+    "chunk.-40.-40.detail": "/baked/campus/14b62e7e/-40_-40_detail.png",
+    "chunk.-32.-40.ground": "/baked/campus/14b62e7e/-32_-40_ground.png",
+    "chunk.-32.-40.detail": "/baked/campus/14b62e7e/-32_-40_detail.png",
+    "chunk.-24.-40.ground": "/baked/campus/14b62e7e/-24_-40_ground.png",
+    "chunk.-24.-40.detail": "/baked/campus/14b62e7e/-24_-40_detail.png",
+    "chunk.-16.-40.ground": "/baked/campus/14b62e7e/-16_-40_ground.png",
+    "chunk.-16.-40.detail": "/baked/campus/14b62e7e/-16_-40_detail.png",
+    "chunk.-8.-40.ground": "/baked/campus/14b62e7e/-8_-40_ground.png",
+    "chunk.-8.-40.detail": "/baked/campus/14b62e7e/-8_-40_detail.png",
+    "chunk.0.-40.ground": "/baked/campus/14b62e7e/0_-40_ground.png",
+    "chunk.0.-40.detail": "/baked/campus/14b62e7e/0_-40_detail.png",
+    "chunk.8.-40.ground": "/baked/campus/14b62e7e/8_-40_ground.png",
+    "chunk.8.-40.detail": "/baked/campus/14b62e7e/8_-40_detail.png",
+    "chunk.16.-40.ground": "/baked/campus/14b62e7e/16_-40_ground.png",
+    "chunk.16.-40.detail": "/baked/campus/14b62e7e/16_-40_detail.png",
+    "chunk.24.-40.ground": "/baked/campus/14b62e7e/24_-40_ground.png",
+    "chunk.24.-40.detail": "/baked/campus/14b62e7e/24_-40_detail.png",
+    "chunk.32.-40.ground": "/baked/campus/14b62e7e/32_-40_ground.png",
+    "chunk.32.-40.detail": "/baked/campus/14b62e7e/32_-40_detail.png",
+    "chunk.40.-40.ground": "/baked/campus/14b62e7e/40_-40_ground.png",
+    "chunk.40.-40.detail": "/baked/campus/14b62e7e/40_-40_detail.png",
+    "chunk.-48.-32.ground": "/baked/campus/14b62e7e/-48_-32_ground.png",
+    "chunk.-48.-32.detail": "/baked/campus/14b62e7e/-48_-32_detail.png",
+    "chunk.-40.-32.ground": "/baked/campus/14b62e7e/-40_-32_ground.png",
+    "chunk.-40.-32.detail": "/baked/campus/14b62e7e/-40_-32_detail.png",
+    "chunk.-32.-32.ground": "/baked/campus/14b62e7e/-32_-32_ground.png",
+    "chunk.-32.-32.detail": "/baked/campus/14b62e7e/-32_-32_detail.png",
+    "chunk.-24.-32.ground": "/baked/campus/14b62e7e/-24_-32_ground.png",
+    "chunk.-24.-32.detail": "/baked/campus/14b62e7e/-24_-32_detail.png",
+    "chunk.-16.-32.ground": "/baked/campus/14b62e7e/-16_-32_ground.png",
+    "chunk.-16.-32.detail": "/baked/campus/14b62e7e/-16_-32_detail.png",
+    "chunk.-8.-32.ground": "/baked/campus/14b62e7e/-8_-32_ground.png",
+    "chunk.-8.-32.detail": "/baked/campus/14b62e7e/-8_-32_detail.png",
+    "chunk.0.-32.ground": "/baked/campus/14b62e7e/0_-32_ground.png",
+    "chunk.0.-32.detail": "/baked/campus/14b62e7e/0_-32_detail.png",
+    "chunk.8.-32.ground": "/baked/campus/14b62e7e/8_-32_ground.png",
+    "chunk.8.-32.detail": "/baked/campus/14b62e7e/8_-32_detail.png",
+    "chunk.16.-32.ground": "/baked/campus/14b62e7e/16_-32_ground.png",
+    "chunk.16.-32.detail": "/baked/campus/14b62e7e/16_-32_detail.png",
+    "chunk.24.-32.ground": "/baked/campus/14b62e7e/24_-32_ground.png",
+    "chunk.24.-32.detail": "/baked/campus/14b62e7e/24_-32_detail.png",
+    "chunk.32.-32.ground": "/baked/campus/14b62e7e/32_-32_ground.png",
+    "chunk.32.-32.detail": "/baked/campus/14b62e7e/32_-32_detail.png",
+    "chunk.40.-32.ground": "/baked/campus/14b62e7e/40_-32_ground.png",
+    "chunk.40.-32.detail": "/baked/campus/14b62e7e/40_-32_detail.png",
+    "chunk.-48.-24.ground": "/baked/campus/14b62e7e/-48_-24_ground.png",
+    "chunk.-48.-24.detail": "/baked/campus/14b62e7e/-48_-24_detail.png",
+    "chunk.-40.-24.ground": "/baked/campus/14b62e7e/-40_-24_ground.png",
+    "chunk.-40.-24.detail": "/baked/campus/14b62e7e/-40_-24_detail.png",
+    "chunk.-32.-24.ground": "/baked/campus/14b62e7e/-32_-24_ground.png",
+    "chunk.-32.-24.detail": "/baked/campus/14b62e7e/-32_-24_detail.png",
+    "chunk.-24.-24.ground": "/baked/campus/14b62e7e/-24_-24_ground.png",
+    "chunk.-24.-24.detail": "/baked/campus/14b62e7e/-24_-24_detail.png",
+    "chunk.-16.-24.ground": "/baked/campus/14b62e7e/-16_-24_ground.png",
+    "chunk.-16.-24.detail": "/baked/campus/14b62e7e/-16_-24_detail.png",
+    "chunk.-8.-24.ground": "/baked/campus/14b62e7e/-8_-24_ground.png",
+    "chunk.-8.-24.detail": "/baked/campus/14b62e7e/-8_-24_detail.png",
+    "chunk.0.-24.ground": "/baked/campus/14b62e7e/0_-24_ground.png",
+    "chunk.0.-24.detail": "/baked/campus/14b62e7e/0_-24_detail.png",
+    "chunk.8.-24.ground": "/baked/campus/14b62e7e/8_-24_ground.png",
+    "chunk.8.-24.detail": "/baked/campus/14b62e7e/8_-24_detail.png",
+    "chunk.16.-24.ground": "/baked/campus/14b62e7e/16_-24_ground.png",
+    "chunk.16.-24.detail": "/baked/campus/14b62e7e/16_-24_detail.png",
+    "chunk.24.-24.ground": "/baked/campus/14b62e7e/24_-24_ground.png",
+    "chunk.24.-24.detail": "/baked/campus/14b62e7e/24_-24_detail.png",
+    "chunk.32.-24.ground": "/baked/campus/14b62e7e/32_-24_ground.png",
+    "chunk.32.-24.detail": "/baked/campus/14b62e7e/32_-24_detail.png",
+    "chunk.40.-24.ground": "/baked/campus/14b62e7e/40_-24_ground.png",
+    "chunk.40.-24.detail": "/baked/campus/14b62e7e/40_-24_detail.png",
+    "chunk.-48.-16.ground": "/baked/campus/14b62e7e/-48_-16_ground.png",
+    "chunk.-48.-16.detail": "/baked/campus/14b62e7e/-48_-16_detail.png",
+    "chunk.-40.-16.ground": "/baked/campus/14b62e7e/-40_-16_ground.png",
+    "chunk.-40.-16.detail": "/baked/campus/14b62e7e/-40_-16_detail.png",
+    "chunk.-32.-16.ground": "/baked/campus/14b62e7e/-32_-16_ground.png",
+    "chunk.-32.-16.detail": "/baked/campus/14b62e7e/-32_-16_detail.png",
+    "chunk.-24.-16.ground": "/baked/campus/14b62e7e/-24_-16_ground.png",
+    "chunk.-24.-16.detail": "/baked/campus/14b62e7e/-24_-16_detail.png",
+    "chunk.-16.-16.ground": "/baked/campus/14b62e7e/-16_-16_ground.png",
+    "chunk.-16.-16.detail": "/baked/campus/14b62e7e/-16_-16_detail.png",
+    "chunk.-8.-16.ground": "/baked/campus/14b62e7e/-8_-16_ground.png",
+    "chunk.-8.-16.detail": "/baked/campus/14b62e7e/-8_-16_detail.png",
+    "chunk.0.-16.ground": "/baked/campus/14b62e7e/0_-16_ground.png",
+    "chunk.0.-16.detail": "/baked/campus/14b62e7e/0_-16_detail.png",
+    "chunk.8.-16.ground": "/baked/campus/14b62e7e/8_-16_ground.png",
+    "chunk.8.-16.detail": "/baked/campus/14b62e7e/8_-16_detail.png",
+    "chunk.16.-16.ground": "/baked/campus/14b62e7e/16_-16_ground.png",
+    "chunk.16.-16.detail": "/baked/campus/14b62e7e/16_-16_detail.png",
+    "chunk.24.-16.ground": "/baked/campus/14b62e7e/24_-16_ground.png",
+    "chunk.24.-16.detail": "/baked/campus/14b62e7e/24_-16_detail.png",
+    "chunk.32.-16.ground": "/baked/campus/14b62e7e/32_-16_ground.png",
+    "chunk.32.-16.detail": "/baked/campus/14b62e7e/32_-16_detail.png",
+    "chunk.40.-16.ground": "/baked/campus/14b62e7e/40_-16_ground.png",
+    "chunk.40.-16.detail": "/baked/campus/14b62e7e/40_-16_detail.png",
+    "chunk.-48.-8.ground": "/baked/campus/14b62e7e/-48_-8_ground.png",
+    "chunk.-48.-8.detail": "/baked/campus/14b62e7e/-48_-8_detail.png",
+    "chunk.-40.-8.ground": "/baked/campus/14b62e7e/-40_-8_ground.png",
+    "chunk.-40.-8.detail": "/baked/campus/14b62e7e/-40_-8_detail.png",
+    "chunk.-32.-8.ground": "/baked/campus/14b62e7e/-32_-8_ground.png",
+    "chunk.-32.-8.detail": "/baked/campus/14b62e7e/-32_-8_detail.png",
+    "chunk.-24.-8.ground": "/baked/campus/14b62e7e/-24_-8_ground.png",
+    "chunk.-24.-8.detail": "/baked/campus/14b62e7e/-24_-8_detail.png",
+    "chunk.-16.-8.ground": "/baked/campus/14b62e7e/-16_-8_ground.png",
+    "chunk.-16.-8.detail": "/baked/campus/14b62e7e/-16_-8_detail.png",
+    "chunk.-8.-8.ground": "/baked/campus/14b62e7e/-8_-8_ground.png",
+    "chunk.-8.-8.detail": "/baked/campus/14b62e7e/-8_-8_detail.png",
+    "chunk.0.-8.ground": "/baked/campus/14b62e7e/0_-8_ground.png",
+    "chunk.0.-8.detail": "/baked/campus/14b62e7e/0_-8_detail.png",
+    "chunk.8.-8.ground": "/baked/campus/14b62e7e/8_-8_ground.png",
+    "chunk.8.-8.detail": "/baked/campus/14b62e7e/8_-8_detail.png",
+    "chunk.16.-8.ground": "/baked/campus/14b62e7e/16_-8_ground.png",
+    "chunk.16.-8.detail": "/baked/campus/14b62e7e/16_-8_detail.png",
+    "chunk.24.-8.ground": "/baked/campus/14b62e7e/24_-8_ground.png",
+    "chunk.24.-8.detail": "/baked/campus/14b62e7e/24_-8_detail.png",
+    "chunk.32.-8.ground": "/baked/campus/14b62e7e/32_-8_ground.png",
+    "chunk.32.-8.detail": "/baked/campus/14b62e7e/32_-8_detail.png",
+    "chunk.40.-8.ground": "/baked/campus/14b62e7e/40_-8_ground.png",
+    "chunk.40.-8.detail": "/baked/campus/14b62e7e/40_-8_detail.png",
+    "chunk.-48.0.ground": "/baked/campus/14b62e7e/-48_0_ground.png",
+    "chunk.-48.0.detail": "/baked/campus/14b62e7e/-48_0_detail.png",
+    "chunk.-40.0.ground": "/baked/campus/14b62e7e/-40_0_ground.png",
+    "chunk.-40.0.detail": "/baked/campus/14b62e7e/-40_0_detail.png",
+    "chunk.-32.0.ground": "/baked/campus/14b62e7e/-32_0_ground.png",
+    "chunk.-32.0.detail": "/baked/campus/14b62e7e/-32_0_detail.png",
+    "chunk.-24.0.ground": "/baked/campus/14b62e7e/-24_0_ground.png",
+    "chunk.-24.0.detail": "/baked/campus/14b62e7e/-24_0_detail.png",
+    "chunk.-16.0.ground": "/baked/campus/14b62e7e/-16_0_ground.png",
+    "chunk.-16.0.detail": "/baked/campus/14b62e7e/-16_0_detail.png",
+    "chunk.-8.0.ground": "/baked/campus/14b62e7e/-8_0_ground.png",
+    "chunk.-8.0.detail": "/baked/campus/14b62e7e/-8_0_detail.png",
+    "chunk.0.0.ground": "/baked/campus/14b62e7e/0_0_ground.png",
+    "chunk.0.0.detail": "/baked/campus/14b62e7e/0_0_detail.png",
+    "chunk.8.0.ground": "/baked/campus/14b62e7e/8_0_ground.png",
+    "chunk.8.0.detail": "/baked/campus/14b62e7e/8_0_detail.png",
+    "chunk.16.0.ground": "/baked/campus/14b62e7e/16_0_ground.png",
+    "chunk.16.0.detail": "/baked/campus/14b62e7e/16_0_detail.png",
+    "chunk.24.0.ground": "/baked/campus/14b62e7e/24_0_ground.png",
+    "chunk.24.0.detail": "/baked/campus/14b62e7e/24_0_detail.png",
+    "chunk.32.0.ground": "/baked/campus/14b62e7e/32_0_ground.png",
+    "chunk.32.0.detail": "/baked/campus/14b62e7e/32_0_detail.png",
+    "chunk.40.0.ground": "/baked/campus/14b62e7e/40_0_ground.png",
+    "chunk.40.0.detail": "/baked/campus/14b62e7e/40_0_detail.png",
+    "chunk.-48.8.ground": "/baked/campus/14b62e7e/-48_8_ground.png",
+    "chunk.-48.8.detail": "/baked/campus/14b62e7e/-48_8_detail.png",
+    "chunk.-40.8.ground": "/baked/campus/14b62e7e/-40_8_ground.png",
+    "chunk.-40.8.detail": "/baked/campus/14b62e7e/-40_8_detail.png",
+    "chunk.-32.8.ground": "/baked/campus/14b62e7e/-32_8_ground.png",
+    "chunk.-32.8.detail": "/baked/campus/14b62e7e/-32_8_detail.png",
+    "chunk.-24.8.ground": "/baked/campus/14b62e7e/-24_8_ground.png",
+    "chunk.-24.8.detail": "/baked/campus/14b62e7e/-24_8_detail.png",
+    "chunk.-16.8.ground": "/baked/campus/14b62e7e/-16_8_ground.png",
+    "chunk.-16.8.detail": "/baked/campus/14b62e7e/-16_8_detail.png",
+    "chunk.-8.8.ground": "/baked/campus/14b62e7e/-8_8_ground.png",
+    "chunk.-8.8.detail": "/baked/campus/14b62e7e/-8_8_detail.png",
+    "chunk.0.8.ground": "/baked/campus/14b62e7e/0_8_ground.png",
+    "chunk.0.8.detail": "/baked/campus/14b62e7e/0_8_detail.png",
+    "chunk.8.8.ground": "/baked/campus/14b62e7e/8_8_ground.png",
+    "chunk.8.8.detail": "/baked/campus/14b62e7e/8_8_detail.png",
+    "chunk.16.8.ground": "/baked/campus/14b62e7e/16_8_ground.png",
+    "chunk.16.8.detail": "/baked/campus/14b62e7e/16_8_detail.png",
+    "chunk.24.8.ground": "/baked/campus/14b62e7e/24_8_ground.png",
+    "chunk.24.8.detail": "/baked/campus/14b62e7e/24_8_detail.png",
+    "chunk.32.8.ground": "/baked/campus/14b62e7e/32_8_ground.png",
+    "chunk.32.8.detail": "/baked/campus/14b62e7e/32_8_detail.png",
+    "chunk.40.8.ground": "/baked/campus/14b62e7e/40_8_ground.png",
+    "chunk.40.8.detail": "/baked/campus/14b62e7e/40_8_detail.png",
+    "chunk.-48.16.ground": "/baked/campus/14b62e7e/-48_16_ground.png",
+    "chunk.-48.16.detail": "/baked/campus/14b62e7e/-48_16_detail.png",
+    "chunk.-40.16.ground": "/baked/campus/14b62e7e/-40_16_ground.png",
+    "chunk.-40.16.detail": "/baked/campus/14b62e7e/-40_16_detail.png",
+    "chunk.-32.16.ground": "/baked/campus/14b62e7e/-32_16_ground.png",
+    "chunk.-32.16.detail": "/baked/campus/14b62e7e/-32_16_detail.png",
+    "chunk.-24.16.ground": "/baked/campus/14b62e7e/-24_16_ground.png",
+    "chunk.-24.16.detail": "/baked/campus/14b62e7e/-24_16_detail.png",
+    "chunk.-16.16.ground": "/baked/campus/14b62e7e/-16_16_ground.png",
+    "chunk.-16.16.detail": "/baked/campus/14b62e7e/-16_16_detail.png",
+    "chunk.-8.16.ground": "/baked/campus/14b62e7e/-8_16_ground.png",
+    "chunk.-8.16.detail": "/baked/campus/14b62e7e/-8_16_detail.png",
+    "chunk.0.16.ground": "/baked/campus/14b62e7e/0_16_ground.png",
+    "chunk.0.16.detail": "/baked/campus/14b62e7e/0_16_detail.png",
+    "chunk.8.16.ground": "/baked/campus/14b62e7e/8_16_ground.png",
+    "chunk.8.16.detail": "/baked/campus/14b62e7e/8_16_detail.png",
+    "chunk.16.16.ground": "/baked/campus/14b62e7e/16_16_ground.png",
+    "chunk.16.16.detail": "/baked/campus/14b62e7e/16_16_detail.png",
+    "chunk.24.16.ground": "/baked/campus/14b62e7e/24_16_ground.png",
+    "chunk.24.16.detail": "/baked/campus/14b62e7e/24_16_detail.png",
+    "chunk.32.16.ground": "/baked/campus/14b62e7e/32_16_ground.png",
+    "chunk.32.16.detail": "/baked/campus/14b62e7e/32_16_detail.png",
+    "chunk.40.16.ground": "/baked/campus/14b62e7e/40_16_ground.png",
+    "chunk.40.16.detail": "/baked/campus/14b62e7e/40_16_detail.png",
+    "chunk.-48.24.ground": "/baked/campus/14b62e7e/-48_24_ground.png",
+    "chunk.-48.24.detail": "/baked/campus/14b62e7e/-48_24_detail.png",
+    "chunk.-40.24.ground": "/baked/campus/14b62e7e/-40_24_ground.png",
+    "chunk.-40.24.detail": "/baked/campus/14b62e7e/-40_24_detail.png",
+    "chunk.-32.24.ground": "/baked/campus/14b62e7e/-32_24_ground.png",
+    "chunk.-32.24.detail": "/baked/campus/14b62e7e/-32_24_detail.png",
+    "chunk.-24.24.ground": "/baked/campus/14b62e7e/-24_24_ground.png",
+    "chunk.-24.24.detail": "/baked/campus/14b62e7e/-24_24_detail.png",
+    "chunk.-16.24.ground": "/baked/campus/14b62e7e/-16_24_ground.png",
+    "chunk.-16.24.detail": "/baked/campus/14b62e7e/-16_24_detail.png",
+    "chunk.-8.24.ground": "/baked/campus/14b62e7e/-8_24_ground.png",
+    "chunk.-8.24.detail": "/baked/campus/14b62e7e/-8_24_detail.png",
+    "chunk.0.24.ground": "/baked/campus/14b62e7e/0_24_ground.png",
+    "chunk.0.24.detail": "/baked/campus/14b62e7e/0_24_detail.png",
+    "chunk.8.24.ground": "/baked/campus/14b62e7e/8_24_ground.png",
+    "chunk.8.24.detail": "/baked/campus/14b62e7e/8_24_detail.png",
+    "chunk.16.24.ground": "/baked/campus/14b62e7e/16_24_ground.png",
+    "chunk.16.24.detail": "/baked/campus/14b62e7e/16_24_detail.png",
+    "chunk.24.24.ground": "/baked/campus/14b62e7e/24_24_ground.png",
+    "chunk.24.24.detail": "/baked/campus/14b62e7e/24_24_detail.png",
+    "chunk.32.24.ground": "/baked/campus/14b62e7e/32_24_ground.png",
+    "chunk.32.24.detail": "/baked/campus/14b62e7e/32_24_detail.png",
+    "chunk.40.24.ground": "/baked/campus/14b62e7e/40_24_ground.png",
+    "chunk.40.24.detail": "/baked/campus/14b62e7e/40_24_detail.png",
+    "chunk.-48.32.ground": "/baked/campus/14b62e7e/-48_32_ground.png",
+    "chunk.-48.32.detail": "/baked/campus/14b62e7e/-48_32_detail.png",
+    "chunk.-40.32.ground": "/baked/campus/14b62e7e/-40_32_ground.png",
+    "chunk.-40.32.detail": "/baked/campus/14b62e7e/-40_32_detail.png",
+    "chunk.-32.32.ground": "/baked/campus/14b62e7e/-32_32_ground.png",
+    "chunk.-32.32.detail": "/baked/campus/14b62e7e/-32_32_detail.png",
+    "chunk.-24.32.ground": "/baked/campus/14b62e7e/-24_32_ground.png",
+    "chunk.-24.32.detail": "/baked/campus/14b62e7e/-24_32_detail.png",
+    "chunk.-16.32.ground": "/baked/campus/14b62e7e/-16_32_ground.png",
+    "chunk.-16.32.detail": "/baked/campus/14b62e7e/-16_32_detail.png",
+    "chunk.-8.32.ground": "/baked/campus/14b62e7e/-8_32_ground.png",
+    "chunk.-8.32.detail": "/baked/campus/14b62e7e/-8_32_detail.png",
+    "chunk.0.32.ground": "/baked/campus/14b62e7e/0_32_ground.png",
+    "chunk.0.32.detail": "/baked/campus/14b62e7e/0_32_detail.png",
+    "chunk.8.32.ground": "/baked/campus/14b62e7e/8_32_ground.png",
+    "chunk.8.32.detail": "/baked/campus/14b62e7e/8_32_detail.png",
+    "chunk.16.32.ground": "/baked/campus/14b62e7e/16_32_ground.png",
+    "chunk.16.32.detail": "/baked/campus/14b62e7e/16_32_detail.png",
+    "chunk.24.32.ground": "/baked/campus/14b62e7e/24_32_ground.png",
+    "chunk.24.32.detail": "/baked/campus/14b62e7e/24_32_detail.png",
+    "chunk.32.32.ground": "/baked/campus/14b62e7e/32_32_ground.png",
+    "chunk.32.32.detail": "/baked/campus/14b62e7e/32_32_detail.png",
+    "chunk.40.32.ground": "/baked/campus/14b62e7e/40_32_ground.png",
+    "chunk.40.32.detail": "/baked/campus/14b62e7e/40_32_detail.png"
+  },
+  "chunks": [
+    {
+      "x": -48,
+      "y": -40,
+      "ground": "chunk.-48.-40.ground",
+      "detail": "chunk.-48.-40.detail"
+    },
+    {
+      "x": -40,
+      "y": -40,
+      "ground": "chunk.-40.-40.ground",
+      "detail": "chunk.-40.-40.detail"
+    },
+    {
+      "x": -32,
+      "y": -40,
+      "ground": "chunk.-32.-40.ground",
+      "detail": "chunk.-32.-40.detail"
+    },
+    {
+      "x": -24,
+      "y": -40,
+      "ground": "chunk.-24.-40.ground",
+      "detail": "chunk.-24.-40.detail"
+    },
+    {
+      "x": -16,
+      "y": -40,
+      "ground": "chunk.-16.-40.ground",
+      "detail": "chunk.-16.-40.detail"
+    },
+    {
+      "x": -8,
+      "y": -40,
+      "ground": "chunk.-8.-40.ground",
+      "detail": "chunk.-8.-40.detail"
+    },
+    {
+      "x": 0,
+      "y": -40,
+      "ground": "chunk.0.-40.ground",
+      "detail": "chunk.0.-40.detail"
+    },
+    {
+      "x": 8,
+      "y": -40,
+      "ground": "chunk.8.-40.ground",
+      "detail": "chunk.8.-40.detail"
+    },
+    {
+      "x": 16,
+      "y": -40,
+      "ground": "chunk.16.-40.ground",
+      "detail": "chunk.16.-40.detail"
+    },
+    {
+      "x": 24,
+      "y": -40,
+      "ground": "chunk.24.-40.ground",
+      "detail": "chunk.24.-40.detail"
+    },
+    {
+      "x": 32,
+      "y": -40,
+      "ground": "chunk.32.-40.ground",
+      "detail": "chunk.32.-40.detail"
+    },
+    {
+      "x": 40,
+      "y": -40,
+      "ground": "chunk.40.-40.ground",
+      "detail": "chunk.40.-40.detail"
+    },
+    {
+      "x": -48,
+      "y": -32,
+      "ground": "chunk.-48.-32.ground",
+      "detail": "chunk.-48.-32.detail"
+    },
+    {
+      "x": -40,
+      "y": -32,
+      "ground": "chunk.-40.-32.ground",
+      "detail": "chunk.-40.-32.detail"
+    },
+    {
+      "x": -32,
+      "y": -32,
+      "ground": "chunk.-32.-32.ground",
+      "detail": "chunk.-32.-32.detail"
+    },
+    {
+      "x": -24,
+      "y": -32,
+      "ground": "chunk.-24.-32.ground",
+      "detail": "chunk.-24.-32.detail"
+    },
+    {
+      "x": -16,
+      "y": -32,
+      "ground": "chunk.-16.-32.ground",
+      "detail": "chunk.-16.-32.detail"
+    },
+    {
+      "x": -8,
+      "y": -32,
+      "ground": "chunk.-8.-32.ground",
+      "detail": "chunk.-8.-32.detail"
+    },
+    {
+      "x": 0,
+      "y": -32,
+      "ground": "chunk.0.-32.ground",
+      "detail": "chunk.0.-32.detail"
+    },
+    {
+      "x": 8,
+      "y": -32,
+      "ground": "chunk.8.-32.ground",
+      "detail": "chunk.8.-32.detail"
+    },
+    {
+      "x": 16,
+      "y": -32,
+      "ground": "chunk.16.-32.ground",
+      "detail": "chunk.16.-32.detail"
+    },
+    {
+      "x": 24,
+      "y": -32,
+      "ground": "chunk.24.-32.ground",
+      "detail": "chunk.24.-32.detail"
+    },
+    {
+      "x": 32,
+      "y": -32,
+      "ground": "chunk.32.-32.ground",
+      "detail": "chunk.32.-32.detail"
+    },
+    {
+      "x": 40,
+      "y": -32,
+      "ground": "chunk.40.-32.ground",
+      "detail": "chunk.40.-32.detail"
+    },
+    {
+      "x": -48,
+      "y": -24,
+      "ground": "chunk.-48.-24.ground",
+      "detail": "chunk.-48.-24.detail"
+    },
+    {
+      "x": -40,
+      "y": -24,
+      "ground": "chunk.-40.-24.ground",
+      "detail": "chunk.-40.-24.detail"
+    },
+    {
+      "x": -32,
+      "y": -24,
+      "ground": "chunk.-32.-24.ground",
+      "detail": "chunk.-32.-24.detail"
+    },
+    {
+      "x": -24,
+      "y": -24,
+      "ground": "chunk.-24.-24.ground",
+      "detail": "chunk.-24.-24.detail"
+    },
+    {
+      "x": -16,
+      "y": -24,
+      "ground": "chunk.-16.-24.ground",
+      "detail": "chunk.-16.-24.detail"
+    },
+    {
+      "x": -8,
+      "y": -24,
+      "ground": "chunk.-8.-24.ground",
+      "detail": "chunk.-8.-24.detail"
+    },
+    {
+      "x": 0,
+      "y": -24,
+      "ground": "chunk.0.-24.ground",
+      "detail": "chunk.0.-24.detail"
+    },
+    {
+      "x": 8,
+      "y": -24,
+      "ground": "chunk.8.-24.ground",
+      "detail": "chunk.8.-24.detail"
+    },
+    {
+      "x": 16,
+      "y": -24,
+      "ground": "chunk.16.-24.ground",
+      "detail": "chunk.16.-24.detail"
+    },
+    {
+      "x": 24,
+      "y": -24,
+      "ground": "chunk.24.-24.ground",
+      "detail": "chunk.24.-24.detail"
+    },
+    {
+      "x": 32,
+      "y": -24,
+      "ground": "chunk.32.-24.ground",
+      "detail": "chunk.32.-24.detail"
+    },
+    {
+      "x": 40,
+      "y": -24,
+      "ground": "chunk.40.-24.ground",
+      "detail": "chunk.40.-24.detail"
+    },
+    {
+      "x": -48,
+      "y": -16,
+      "ground": "chunk.-48.-16.ground",
+      "detail": "chunk.-48.-16.detail"
+    },
+    {
+      "x": -40,
+      "y": -16,
+      "ground": "chunk.-40.-16.ground",
+      "detail": "chunk.-40.-16.detail"
+    },
+    {
+      "x": -32,
+      "y": -16,
+      "ground": "chunk.-32.-16.ground",
+      "detail": "chunk.-32.-16.detail"
+    },
+    {
+      "x": -24,
+      "y": -16,
+      "ground": "chunk.-24.-16.ground",
+      "detail": "chunk.-24.-16.detail"
+    },
+    {
+      "x": -16,
+      "y": -16,
+      "ground": "chunk.-16.-16.ground",
+      "detail": "chunk.-16.-16.detail"
+    },
+    {
+      "x": -8,
+      "y": -16,
+      "ground": "chunk.-8.-16.ground",
+      "detail": "chunk.-8.-16.detail"
+    },
+    {
+      "x": 0,
+      "y": -16,
+      "ground": "chunk.0.-16.ground",
+      "detail": "chunk.0.-16.detail"
+    },
+    {
+      "x": 8,
+      "y": -16,
+      "ground": "chunk.8.-16.ground",
+      "detail": "chunk.8.-16.detail"
+    },
+    {
+      "x": 16,
+      "y": -16,
+      "ground": "chunk.16.-16.ground",
+      "detail": "chunk.16.-16.detail"
+    },
+    {
+      "x": 24,
+      "y": -16,
+      "ground": "chunk.24.-16.ground",
+      "detail": "chunk.24.-16.detail"
+    },
+    {
+      "x": 32,
+      "y": -16,
+      "ground": "chunk.32.-16.ground",
+      "detail": "chunk.32.-16.detail"
+    },
+    {
+      "x": 40,
+      "y": -16,
+      "ground": "chunk.40.-16.ground",
+      "detail": "chunk.40.-16.detail"
+    },
+    {
+      "x": -48,
+      "y": -8,
+      "ground": "chunk.-48.-8.ground",
+      "detail": "chunk.-48.-8.detail"
+    },
+    {
+      "x": -40,
+      "y": -8,
+      "ground": "chunk.-40.-8.ground",
+      "detail": "chunk.-40.-8.detail"
+    },
+    {
+      "x": -32,
+      "y": -8,
+      "ground": "chunk.-32.-8.ground",
+      "detail": "chunk.-32.-8.detail"
+    },
+    {
+      "x": -24,
+      "y": -8,
+      "ground": "chunk.-24.-8.ground",
+      "detail": "chunk.-24.-8.detail"
+    },
+    {
+      "x": -16,
+      "y": -8,
+      "ground": "chunk.-16.-8.ground",
+      "detail": "chunk.-16.-8.detail"
+    },
+    {
+      "x": -8,
+      "y": -8,
+      "ground": "chunk.-8.-8.ground",
+      "detail": "chunk.-8.-8.detail"
+    },
+    {
+      "x": 0,
+      "y": -8,
+      "ground": "chunk.0.-8.ground",
+      "detail": "chunk.0.-8.detail"
+    },
+    {
+      "x": 8,
+      "y": -8,
+      "ground": "chunk.8.-8.ground",
+      "detail": "chunk.8.-8.detail"
+    },
+    {
+      "x": 16,
+      "y": -8,
+      "ground": "chunk.16.-8.ground",
+      "detail": "chunk.16.-8.detail"
+    },
+    {
+      "x": 24,
+      "y": -8,
+      "ground": "chunk.24.-8.ground",
+      "detail": "chunk.24.-8.detail"
+    },
+    {
+      "x": 32,
+      "y": -8,
+      "ground": "chunk.32.-8.ground",
+      "detail": "chunk.32.-8.detail"
+    },
+    {
+      "x": 40,
+      "y": -8,
+      "ground": "chunk.40.-8.ground",
+      "detail": "chunk.40.-8.detail"
+    },
+    {
+      "x": -48,
+      "y": 0,
+      "ground": "chunk.-48.0.ground",
+      "detail": "chunk.-48.0.detail"
+    },
+    {
+      "x": -40,
+      "y": 0,
+      "ground": "chunk.-40.0.ground",
+      "detail": "chunk.-40.0.detail"
+    },
+    {
+      "x": -32,
+      "y": 0,
+      "ground": "chunk.-32.0.ground",
+      "detail": "chunk.-32.0.detail"
+    },
+    {
+      "x": -24,
+      "y": 0,
+      "ground": "chunk.-24.0.ground",
+      "detail": "chunk.-24.0.detail"
+    },
+    {
+      "x": -16,
+      "y": 0,
+      "ground": "chunk.-16.0.ground",
+      "detail": "chunk.-16.0.detail"
+    },
+    {
+      "x": -8,
+      "y": 0,
+      "ground": "chunk.-8.0.ground",
+      "detail": "chunk.-8.0.detail"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "ground": "chunk.0.0.ground",
+      "detail": "chunk.0.0.detail"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "ground": "chunk.8.0.ground",
+      "detail": "chunk.8.0.detail"
+    },
+    {
+      "x": 16,
+      "y": 0,
+      "ground": "chunk.16.0.ground",
+      "detail": "chunk.16.0.detail"
+    },
+    {
+      "x": 24,
+      "y": 0,
+      "ground": "chunk.24.0.ground",
+      "detail": "chunk.24.0.detail"
+    },
+    {
+      "x": 32,
+      "y": 0,
+      "ground": "chunk.32.0.ground",
+      "detail": "chunk.32.0.detail"
+    },
+    {
+      "x": 40,
+      "y": 0,
+      "ground": "chunk.40.0.ground",
+      "detail": "chunk.40.0.detail"
+    },
+    {
+      "x": -48,
+      "y": 8,
+      "ground": "chunk.-48.8.ground",
+      "detail": "chunk.-48.8.detail"
+    },
+    {
+      "x": -40,
+      "y": 8,
+      "ground": "chunk.-40.8.ground",
+      "detail": "chunk.-40.8.detail"
+    },
+    {
+      "x": -32,
+      "y": 8,
+      "ground": "chunk.-32.8.ground",
+      "detail": "chunk.-32.8.detail"
+    },
+    {
+      "x": -24,
+      "y": 8,
+      "ground": "chunk.-24.8.ground",
+      "detail": "chunk.-24.8.detail"
+    },
+    {
+      "x": -16,
+      "y": 8,
+      "ground": "chunk.-16.8.ground",
+      "detail": "chunk.-16.8.detail"
+    },
+    {
+      "x": -8,
+      "y": 8,
+      "ground": "chunk.-8.8.ground",
+      "detail": "chunk.-8.8.detail"
+    },
+    {
+      "x": 0,
+      "y": 8,
+      "ground": "chunk.0.8.ground",
+      "detail": "chunk.0.8.detail"
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "ground": "chunk.8.8.ground",
+      "detail": "chunk.8.8.detail"
+    },
+    {
+      "x": 16,
+      "y": 8,
+      "ground": "chunk.16.8.ground",
+      "detail": "chunk.16.8.detail"
+    },
+    {
+      "x": 24,
+      "y": 8,
+      "ground": "chunk.24.8.ground",
+      "detail": "chunk.24.8.detail"
+    },
+    {
+      "x": 32,
+      "y": 8,
+      "ground": "chunk.32.8.ground",
+      "detail": "chunk.32.8.detail"
+    },
+    {
+      "x": 40,
+      "y": 8,
+      "ground": "chunk.40.8.ground",
+      "detail": "chunk.40.8.detail"
+    },
+    {
+      "x": -48,
+      "y": 16,
+      "ground": "chunk.-48.16.ground",
+      "detail": "chunk.-48.16.detail"
+    },
+    {
+      "x": -40,
+      "y": 16,
+      "ground": "chunk.-40.16.ground",
+      "detail": "chunk.-40.16.detail"
+    },
+    {
+      "x": -32,
+      "y": 16,
+      "ground": "chunk.-32.16.ground",
+      "detail": "chunk.-32.16.detail"
+    },
+    {
+      "x": -24,
+      "y": 16,
+      "ground": "chunk.-24.16.ground",
+      "detail": "chunk.-24.16.detail"
+    },
+    {
+      "x": -16,
+      "y": 16,
+      "ground": "chunk.-16.16.ground",
+      "detail": "chunk.-16.16.detail"
+    },
+    {
+      "x": -8,
+      "y": 16,
+      "ground": "chunk.-8.16.ground",
+      "detail": "chunk.-8.16.detail"
+    },
+    {
+      "x": 0,
+      "y": 16,
+      "ground": "chunk.0.16.ground",
+      "detail": "chunk.0.16.detail"
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "ground": "chunk.8.16.ground",
+      "detail": "chunk.8.16.detail"
+    },
+    {
+      "x": 16,
+      "y": 16,
+      "ground": "chunk.16.16.ground",
+      "detail": "chunk.16.16.detail"
+    },
+    {
+      "x": 24,
+      "y": 16,
+      "ground": "chunk.24.16.ground",
+      "detail": "chunk.24.16.detail"
+    },
+    {
+      "x": 32,
+      "y": 16,
+      "ground": "chunk.32.16.ground",
+      "detail": "chunk.32.16.detail"
+    },
+    {
+      "x": 40,
+      "y": 16,
+      "ground": "chunk.40.16.ground",
+      "detail": "chunk.40.16.detail"
+    },
+    {
+      "x": -48,
+      "y": 24,
+      "ground": "chunk.-48.24.ground",
+      "detail": "chunk.-48.24.detail"
+    },
+    {
+      "x": -40,
+      "y": 24,
+      "ground": "chunk.-40.24.ground",
+      "detail": "chunk.-40.24.detail"
+    },
+    {
+      "x": -32,
+      "y": 24,
+      "ground": "chunk.-32.24.ground",
+      "detail": "chunk.-32.24.detail"
+    },
+    {
+      "x": -24,
+      "y": 24,
+      "ground": "chunk.-24.24.ground",
+      "detail": "chunk.-24.24.detail"
+    },
+    {
+      "x": -16,
+      "y": 24,
+      "ground": "chunk.-16.24.ground",
+      "detail": "chunk.-16.24.detail"
+    },
+    {
+      "x": -8,
+      "y": 24,
+      "ground": "chunk.-8.24.ground",
+      "detail": "chunk.-8.24.detail"
+    },
+    {
+      "x": 0,
+      "y": 24,
+      "ground": "chunk.0.24.ground",
+      "detail": "chunk.0.24.detail"
+    },
+    {
+      "x": 8,
+      "y": 24,
+      "ground": "chunk.8.24.ground",
+      "detail": "chunk.8.24.detail"
+    },
+    {
+      "x": 16,
+      "y": 24,
+      "ground": "chunk.16.24.ground",
+      "detail": "chunk.16.24.detail"
+    },
+    {
+      "x": 24,
+      "y": 24,
+      "ground": "chunk.24.24.ground",
+      "detail": "chunk.24.24.detail"
+    },
+    {
+      "x": 32,
+      "y": 24,
+      "ground": "chunk.32.24.ground",
+      "detail": "chunk.32.24.detail"
+    },
+    {
+      "x": 40,
+      "y": 24,
+      "ground": "chunk.40.24.ground",
+      "detail": "chunk.40.24.detail"
+    },
+    {
+      "x": -48,
+      "y": 32,
+      "ground": "chunk.-48.32.ground",
+      "detail": "chunk.-48.32.detail"
+    },
+    {
+      "x": -40,
+      "y": 32,
+      "ground": "chunk.-40.32.ground",
+      "detail": "chunk.-40.32.detail"
+    },
+    {
+      "x": -32,
+      "y": 32,
+      "ground": "chunk.-32.32.ground",
+      "detail": "chunk.-32.32.detail"
+    },
+    {
+      "x": -24,
+      "y": 32,
+      "ground": "chunk.-24.32.ground",
+      "detail": "chunk.-24.32.detail"
+    },
+    {
+      "x": -16,
+      "y": 32,
+      "ground": "chunk.-16.32.ground",
+      "detail": "chunk.-16.32.detail"
+    },
+    {
+      "x": -8,
+      "y": 32,
+      "ground": "chunk.-8.32.ground",
+      "detail": "chunk.-8.32.detail"
+    },
+    {
+      "x": 0,
+      "y": 32,
+      "ground": "chunk.0.32.ground",
+      "detail": "chunk.0.32.detail"
+    },
+    {
+      "x": 8,
+      "y": 32,
+      "ground": "chunk.8.32.ground",
+      "detail": "chunk.8.32.detail"
+    },
+    {
+      "x": 16,
+      "y": 32,
+      "ground": "chunk.16.32.ground",
+      "detail": "chunk.16.32.detail"
+    },
+    {
+      "x": 24,
+      "y": 32,
+      "ground": "chunk.24.32.ground",
+      "detail": "chunk.24.32.detail"
+    },
+    {
+      "x": 32,
+      "y": 32,
+      "ground": "chunk.32.32.ground",
+      "detail": "chunk.32.32.detail"
+    },
+    {
+      "x": 40,
+      "y": 32,
+      "ground": "chunk.40.32.ground",
+      "detail": "chunk.40.32.detail"
+    }
+  ],
+  "animationTints": {
+    "cultivation-border-flora-0": 10526880,
+    "kitchen-border-flora-0": 10724259,
+    "north-beacon-flora-0": 13815232,
+    "west-border-flora-0": 10658466,
+    "lily-0": 15269887,
+    "lily-1": 14079702,
+    "lily-2": 15138815,
+    "lily-3": 14869215,
+    "lily-4": 15138815,
+    "lily-6": 15269887,
+    "west-garden-flora-0": 13748668,
+    "lily-5": 14079702,
+    "lily-7": 14145494,
+    "east-garden-flora-0": 12762543,
+    "lily-8": 15335423,
+    "south-garden-flora-0": 11710377,
+    "lily-9": 14540250,
+    "lily-10": 15138815
+  },
+  "collision": "/baked/campus/14b62e7e/collision-v2.json"
+}
