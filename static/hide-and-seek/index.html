@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#101922">
   <title>Hide & Seek — After Hours</title>
   <style>html{--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;background:#101922}body{margin:0}html[data-loading] body>:not(#loading-screen){display:none!important}#loading-screen{color:#e7f0ec;text-align:center;background:#101922;place-content:center;justify-items:center;gap:12px;padding:24px;font:16px system-ui,-apple-system,sans-serif;display:grid;position:fixed;inset:0}#loading-screen strong{letter-spacing:-1px;font-size:32px}#loading-screen strong span{color:#80e0bd}#loading-screen p{color:#a7bdba;margin:0}#loading-error{white-space:pre-wrap;overflow-wrap:anywhere;color:#ffaf98;max-width:48ch;font:13px ui-monospace,monospace}</style>
-  <script type="module" crossorigin src="/hide-and-seek/assets/index-siveau-S.js"></script>
+  <script type="module" crossorigin src="/hide-and-seek/assets/index-BVuBbInH.js"></script>
   <link rel="modulepreload" crossorigin href="/hide-and-seek/assets/preload-helper-DTjPza2t.js">
 </head>
 <body>
@@ -34,7 +34,7 @@
   </main>
   <section id="game" hidden>
     <div id="canvas-wrap"></div>
-    <header id="hud"><div><strong>Hide & Seek</strong><span id="session-label"></span></div><div class="hud-actions"><button id="profile-button" aria-expanded="false" aria-controls="profile-panel">Profile</button><button id="share-button">Invite</button><button id="leave-button">Leave</button></div></header>
+    <header id="hud"><div><strong>Hide & Seek</strong><span id="session-label"></span></div><div class="hud-actions"><button id="sound-button" aria-pressed="true" aria-label="Game sound">Sound on</button><button id="profile-button" aria-expanded="false" aria-controls="profile-panel">Profile</button><button id="share-button">Invite</button><button id="leave-button">Leave</button></div></header>
     <div id="telemetry"><span id="connection-state">Starting…</span><span id="player-count">1 player</span><span id="ping">Host</span></div>
     <div id="profile-status" role="status" hidden></div>
     <aside id="profile-panel" hidden aria-label="Performance profiler">
@@ -49,12 +49,13 @@
       <p id="profile-capture"></p><p id="profile-location" class="hint">Already saved on the PC. View all captures there at <code>http://localhost:3000/profiles</code>.</p>
     </aside>
     <div id="game-notice" role="status"></div>
-    <div id="round-status" role="status"></div>
-    <div id="ping-timer" hidden>Next ping<span id="ping-countdown"></span></div>
+    <div id="player-notice" role="status"></div>
+    <div id="round-timer" hidden><span id="round-timer-label">TIME LEFT</span><span id="round-countdown"></span></div>
+    <div id="ping-timer" hidden>NEXT PING<span id="ping-countdown"></span></div>
     <div id="beam-cue" hidden>Amber arrow points toward the seeker</div>
     <div id="movement-noise" hidden><div class="noise-label">Movement noise <span id="noise-level">Quiet</span></div><div id="noise-track" role="progressbar" aria-label="Movement noise" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="noise-fill"></div></div></div>
-    <details id="scoreboard" hidden><summary>Scores</summary><ol id="score-list"></ol></details>
-    <div id="round-actions"><button id="flashlight-button" aria-pressed="false" hidden>Light off</button><button id="restart-round" hidden>New round</button></div>
+    <aside id="scoreboard" hidden aria-label="Scores"><h2>SCORES</h2><ol id="score-list"></ol></aside>
+    <div id="round-actions"><button id="flashlight-button" aria-pressed="false" hidden>Hold for light</button></div>
     <div id="controls-hint">WASD / arrows to move · Mouse to aim · Amber props are pushable</div>
     <div id="world-coordinates" aria-label="World coordinates"></div>
     <div id="joystick" class="stick-zone" aria-label="Movement joystick"><div id="joystick-knob" class="stick-knob"></div><span>MOVE</span></div>
