@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#101922">
   <title>Hide & Seek — After Hours</title>
   <style>html{--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;background:#101922}body{margin:0}html[data-loading] body>:not(#loading-screen){display:none!important}#loading-screen{color:#e7f0ec;text-align:center;background:#101922;place-content:center;justify-items:center;gap:12px;padding:24px;font:16px system-ui,-apple-system,sans-serif;display:grid;position:fixed;inset:0}#loading-screen strong{letter-spacing:-1px;font-size:32px}#loading-screen strong span{color:#80e0bd}#loading-screen p{color:#a7bdba;margin:0}#loading-error{white-space:pre-wrap;overflow-wrap:anywhere;color:#ffaf98;max-width:48ch;font:13px ui-monospace,monospace}</style>
-  <script type="module" crossorigin src="/hide-and-seek/assets/index-BVuBbInH.js"></script>
+  <script type="module" crossorigin src="/hide-and-seek/assets/index-BuJ53RfU.js"></script>
   <link rel="modulepreload" crossorigin href="/hide-and-seek/assets/preload-helper-DTjPza2t.js">
 </head>
 <body>
@@ -20,16 +20,21 @@
     <div class="eyebrow">LOCAL MULTIPLAYER / PROTOTYPE 01</div>
     <h1>Hide <span>&</span> Seek</h1>
     <p class="intro">Explore Lumen Campus. Bring a friend.</p>
-    <p class="hint">Take turns seeking. Stay out of the flashlight. Each catch earns one point.</p>
     <p class="hint"><a id="scene-workshop" href="/scene.html?scene=campus">Open this scene in the workshop</a></p>
     <div class="connection-summary"><span class="status-dot"></span><span id="local-address">Connecting to your LAN…</span></div>
     <label for="player-name">Your name</label>
     <input id="player-name" maxlength="20" placeholder="Player" autocomplete="nickname" value="Player">
+    <label for="game-mode">Game mode</label>
+    <select id="game-mode"><option value="hide-and-seek">Hide & Seek</option><option value="standoff">Standoff</option></select>
+    <p id="mode-description" class="hint">Take turns seeking. Each catch earns one point.</p>
+    <label class="room-privacy"><input id="public-room" type="checkbox" checked> Show my room in the room browser</label>
     <button id="host-button" class="primary" disabled>Host as seeker <span>↗</span></button>
     <div class="divider"><span>or join a friend</span></div>
     <label for="host-address">Host’s local IP or room code</label>
     <div class="join-row"><input id="host-address" placeholder="192.168.4.21 or ABC123" autocomplete="off" autocapitalize="off" spellcheck="false"><button id="join-button" disabled>Join</button></div>
     <p id="connection-hint" class="hint">Everyone opens this website on the same LAN. Any device can host.</p>
+    <button id="rejoin-last" hidden>Rejoin my last room</button>
+    <section id="room-browser" aria-label="Open rooms"><div class="room-browser-heading"><h2>Open rooms</h2><button id="refresh-rooms">Refresh</button></div><ul id="room-list"></ul><p id="room-list-status" class="hint">Looking for rooms…</p></section>
     <p id="lobby-status" role="status">Loading physics and rendering…</p>
   </main>
   <section id="game" hidden>
@@ -50,12 +55,14 @@
     </aside>
     <div id="game-notice" role="status"></div>
     <div id="player-notice" role="status"></div>
+    <div id="reconnect-banner" role="status" hidden></div>
     <div id="round-timer" hidden><span id="round-timer-label">TIME LEFT</span><span id="round-countdown"></span></div>
-    <div id="ping-timer" hidden>NEXT PING<span id="ping-countdown"></span></div>
+    <div id="ping-timer" hidden><span id="ping-label">NEXT PING</span><span id="ping-countdown"></span></div>
     <div id="beam-cue" hidden>Amber arrow points toward the seeker</div>
     <div id="movement-noise" hidden><div class="noise-label">Movement noise <span id="noise-level">Quiet</span></div><div id="noise-track" role="progressbar" aria-label="Movement noise" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="noise-fill"></div></div></div>
     <aside id="scoreboard" hidden aria-label="Scores"><h2>SCORES</h2><ol id="score-list"></ol></aside>
     <div id="round-actions"><button id="flashlight-button" aria-pressed="false" hidden>Hold for light</button></div>
+    <button id="fire-button" hidden>FIRE <span id="fire-cooldown">Ready</span></button>
     <div id="controls-hint">WASD / arrows to move · Mouse to aim · Amber props are pushable</div>
     <div id="world-coordinates" aria-label="World coordinates"></div>
     <div id="joystick" class="stick-zone" aria-label="Movement joystick"><div id="joystick-knob" class="stick-knob"></div><span>MOVE</span></div>

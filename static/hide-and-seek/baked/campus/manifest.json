@@ -1,7 +1,7 @@
 {
   "version": 1,
   "id": "campus",
-  "hash": "14b62e7e",
+  "hash": "4fbc023e",
   "pixelsPerUnit": 64,
   "chunkSize": 8,
   "gutter": 1,
@@ -996,5 +996,5 @@
     "lily-9": 14540250,
     "lily-10": 15138815
   },
-  "collision": "/baked/campus/14b62e7e/collision-v2.json"
+  "collision": "/baked/campus/4fbc023e/collision-v2.json"
 }
