@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#101922">
   <title>Hide & Seek — After Hours</title>
   <style>html{--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;background:#101922}body{margin:0}html[data-loading] body>:not(#loading-screen){display:none!important}#loading-screen{color:#e7f0ec;text-align:center;background:#101922;place-content:center;justify-items:center;gap:12px;padding:24px;font:16px system-ui,-apple-system,sans-serif;display:grid;position:fixed;inset:0}#loading-screen strong{letter-spacing:-1px;font-size:32px}#loading-screen strong span{color:#80e0bd}#loading-screen p{color:#a7bdba;margin:0}#loading-error{white-space:pre-wrap;overflow-wrap:anywhere;color:#ffaf98;max-width:48ch;font:13px ui-monospace,monospace}</style>
-  <script type="module" crossorigin src="/hide-and-seek/assets/index-BuJ53RfU.js"></script>
+  <script type="module" crossorigin src="/hide-and-seek/assets/index-CZdjvRUk.js"></script>
   <link rel="modulepreload" crossorigin href="/hide-and-seek/assets/preload-helper-DTjPza2t.js">
 </head>
 <body>
@@ -25,7 +25,7 @@
     <label for="player-name">Your name</label>
     <input id="player-name" maxlength="20" placeholder="Player" autocomplete="nickname" value="Player">
     <label for="game-mode">Game mode</label>
-    <select id="game-mode"><option value="hide-and-seek">Hide & Seek</option><option value="standoff">Standoff</option></select>
+    <select id="game-mode"><option value="hide-and-seek">Hide & Seek</option><option value="standoff">Standoff</option><option value="prop-hunter">Prop Hunter</option></select>
     <p id="mode-description" class="hint">Take turns seeking. Each catch earns one point.</p>
     <label class="room-privacy"><input id="public-room" type="checkbox" checked> Show my room in the room browser</label>
     <button id="host-button" class="primary" disabled>Host as seeker <span>↗</span></button>
@@ -62,7 +62,7 @@
     <div id="movement-noise" hidden><div class="noise-label">Movement noise <span id="noise-level">Quiet</span></div><div id="noise-track" role="progressbar" aria-label="Movement noise" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="noise-fill"></div></div></div>
     <aside id="scoreboard" hidden aria-label="Scores"><h2>SCORES</h2><ol id="score-list"></ol></aside>
     <div id="round-actions"><button id="flashlight-button" aria-pressed="false" hidden>Hold for light</button></div>
-    <button id="fire-button" hidden>FIRE <span id="fire-cooldown">Ready</span></button>
+    <button id="fire-button" hidden><span id="fire-label">FIRE</span><span id="fire-cooldown">Ready</span></button>
     <div id="controls-hint">WASD / arrows to move · Mouse to aim · Amber props are pushable</div>
     <div id="world-coordinates" aria-label="World coordinates"></div>
     <div id="joystick" class="stick-zone" aria-label="Movement joystick"><div id="joystick-knob" class="stick-knob"></div><span>MOVE</span></div>
